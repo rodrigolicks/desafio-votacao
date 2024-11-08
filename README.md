@@ -1,3 +1,17 @@
+# Instruções para execução do desafio - Rodrigo Licks
+
+1. Rodar o PostgreSQL. O schema e outros dados serão inseridos via migrations do Liquibase:
+`docker run -d --name postgres-rodrigolicks -e POSTGRES_PASSWORD=password -p 5432:5432 postgres:16`
+
+2. Executar o projeto na IDE ou linha de comando com o Gradle:
+`./gradlew bootRun`
+
+3. A collection com as requests e a documentação da API encontram-se na pasta `postman`.
+4. Os relatórios de performance encontram-se na pasta `postman/performance_reports`.
+5. Tarefa bônus 3: a estratégia de versionamento da API é feita via controller.
+
+Dúvidas, estou à disposição.
+
 # Votação
 
 ## Objetivo
